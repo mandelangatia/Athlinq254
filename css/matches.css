@@ -22,3 +22,10 @@ video {
   width: 100%;
   position: fixed;
 }
+
+#fixts {
+  display: none;
+}
+#tonament {
+  display: none;
+}
