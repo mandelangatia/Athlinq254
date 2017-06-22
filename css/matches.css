@@ -22,14 +22,21 @@ video {
   width: 100%;
   position: fixed;
 }
-
+#rowone {
+  text-align: center;
+  color: yellow;
+}
+#matchSide {
+  background-color: white;
+  opacity: 0.6;
+  color: #000000;
+}
 #fixts {
   display: none;
 }
 #tonament {
   display: none;
 }
-
 #trials {
   background-color: dimgray;
   opacity: 0.7;
@@ -42,4 +49,20 @@ video {
   font-size: 20px;
   color: black;
   display: none;
+}
+.container {
+  color: #FF8C00;
+  background-color: #2F4F4F;
+  opacity: 0.9;
+}
+.container a {
+  color: #FF8C00;
+}
+.container a:hover{
+  background-color: white;
+  color: blue;
+}
+.list-unstyled img {
+  width: 4em;
+  height: 4em;
 }
