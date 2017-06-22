@@ -10,4 +10,12 @@ $(document).ready(function() {
     $("#tonament").show();
     $("#fixts").hide();
   });
-})
+
+    $("#showform").click(function() {
+      $("#regiform").show();
+    });
+
+    $("#showevents").click(function() {
+      $("#events").show();
+    });
+});

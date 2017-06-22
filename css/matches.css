@@ -29,3 +29,17 @@ video {
 #tonament {
   display: none;
 }
+
+#trials {
+  background-color: dimgray;
+  opacity: 0.7;
+}
+#events {
+  display: none;
+  color: #7CFC00;
+}
+#regiform {
+  font-size: 20px;
+  color: black;
+  display: none;
+}
