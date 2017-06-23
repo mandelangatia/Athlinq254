@@ -1,0 +1,68 @@
+body {
+  background: #333;
+  padding: 1em;
+}
+.container-fluid {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.navbar {
+  background-color: #00BFFF;
+  color: #6A5ACD;
+  font-size: 40px;
+
+}
+.video-conatiner {
+  z-index: 0;
+}
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+  position: fixed;
+}
+#rowone {
+  text-align: center;
+  color: yellow;
+}
+#matchSide {
+  background-color: white;
+  opacity: 0.6;
+  color: #000000;
+}
+#fixts {
+  display: none;
+}
+#tonament {
+  display: none;
+}
+#trials {
+  background-color: dimgray;
+  opacity: 0.7;
+}
+#events {
+  display: none;
+  color: #7CFC00;
+}
+#regiform {
+  font-size: 20px;
+  color: black;
+  display: none;
+}
+.container {
+  color: #FF8C00;
+  background-color: #2F4F4F;
+  opacity: 0.9;
+}
+.container a {
+  color: #FF8C00;
+}
+.container a:hover{
+  background-color: white;
+  color: blue;
+}
+.list-unstyled img {
+  width: 4em;
+  height: 4em;
+}
