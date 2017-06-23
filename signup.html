@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <Meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/signup.css" rel="stylesheet" type="text/css" media="screen">
+  <script src="js/jquey.js"  type="text/js"></script>
+  <script src="js/signup.js" type="text/js"></script>
+  <title>Sign-up Page</title>
+</head>
+
+<body>
+  <div class="first_container">
+    <div class="nav_row">
+      <nav class="navbar navbar-default">
+ <div class="container-fluid">
+   <div class="navbar-header">
+     <a class="navbar-brand" href="#">ATHLINQ</a>
+   </div>
+   <ul class="nav navbar-nav">
+     <li class="active"><a href="#">Home</a></li>
+         <li><a href="#">Clubs</a></li>
+         <li><a href="#">Events</a></li>
+         <li><a href="#">Players</a></li>
+       </ul>
+     </li>
+   </ul>
+   <ul class="nav navbar-nav navbar-right">
+   </ul>
+ </div>
+</nav>
+</div>
+</div>
+    <div id="wrapper">
+        <script>
+        </script>
+        <div id="logo">
+            <img src="images/logo.png">
+        </div>
+        <!--end of logo area-->
+
+        <div id="clear"></div>
+
+		<h3>Player Registration</h3>
+
+        <div id="form">
+
+
+            <form method="POST" action="kim.php" name="registration" onsubmit="return validate();">
+
+			<div id="personalinf" class="frm">
+
+			<h4><span class="h">Personal Information</span></h4>
+
+               <table style="float:left">
+						<tr>
+							<th>NAME</th>
+							<td><input type="text" name="name"></td><span id="name" class="error">Your name is required</span>
+						</tr>
+
+						<tr>
+							<th>D.O.B</th>
+							<td><input type="text" name="dob"></td><span id="dob" class="error">Your date of birth is required</span>
+						</tr>
+
+						<tr>
+							<th>HEIGHT</th>
+							<td><input type="text" name="height"></td><span id="height" class="error">Your height is required</span>
+						</tr>
+
+						<tr>
+							<th>PLAYING POSITION</th><span id="position" class="error">Your playing position is required</span>
+							<td>
+								<select>
+									<option>Forward</option>
+									<option>Center</option>
+									<option>Left wing</option>
+									<option>Right wing</option>
+									<option>Back</option>
+								</select>
+							</td>
+						</tr>
+
+			   </table>
+
+			   <div id="profile" style="float:right; margin-right:30px">
+					<img src="">
+					<input style="width:120px; height:20px;" type="file" name="pp">
+			   </div>
+			   <!--end of the pp division-->
+
+			   <div id="clear">
+			   </div>
+
+			</div>
+			<!--end of personal information form area-->
+
+				<div id="clubinfo" class="frm">
+				<h4><span class="h">Club Information</span></h4>
+					<table>
+						<tr>
+							<th>TEAM</th>
+							<td><input type="text" name="team"></td><span id="team" class="error">Your team name is required</span>
+						</tr>
+
+						<tr>
+							<th>NUMBER</th>
+							<td><input type="text" name="number"></td><span id="number" class="error">Your playing number is required</span>
+						</tr>
+
+					</table>
+				</div>
+				<!--end of clubs information form area-->
+
+				<div id="prevclub" class="frm">
+				<h4><span class="h">Previous Clubs Played For</span></h4>
+
+				<table>
+					<tr>
+						<th class="smallr"></th>
+						<th style="text-align:center">CLUBS</th>
+						<th style="text-align:center">APPEARANCES</th>
+						<th style="text-align:center">GOALS</th>
+					</tr>
+
+					<tr>
+						<td style="width:5px; text-align:center">1</td>
+						<td><input type="text" name="clubs"></td>
+						<td><input type="text" name="appearance"></td>
+						<td><input type="text" name="goals"></td>
+					</tr>
+
+					<tr>
+						<td style="width:5px; text-align:center">2</td>
+						<td><input type="text" name="clubs"></td>
+						<td><input type="text" name="appearance"></td>
+						<td><input type="text" name="goals"></td>
+					</tr>
+
+					<tr>
+						<td style="width:5px; text-align:center">3</td>
+						<td><input type="text" name="clubs"></td>
+						<td><input type="text" name="appearance"></td>
+						<td><input type="text" name="goals"></td>
+					</tr>
+
+					<tr>
+						<td style="width:5px; text-align:center">4</td>
+						<td><input type="text" name="clubs"></td>
+						<td><input type="text" name="appearance"></td>
+						<td><input type="text" name="goals"></td>
+					</tr>
+
+				</table>
+
+				</div>
+				<!--end of previous clubs form area-->
+
+                <input type="submit" name="submit" class="submit" value="Register">
+
+				<div id="clear">
+				</div>
+
+            </form>
+			<!--end of the form-->
+
+        </div>
+        <!--end of the form div-->
+    </div>
+    <!---end of the wrapper div-->
+    <footer>
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-10 col-lg-offset-1 text-center">
+           <h3>ATHLINQ</h3>
+           <p>Nairobi
+             <br> Moringa School</p>
+           <ol class="list-unstyled">
+             <li>0708373578</li>
+             <li><a href="#"><img src="images/email.png" alt=""></a>
+             </li>
+           </ol>
+           <br>
+           <ol class="list-inline">
+             <li>
+               <a href="#"><img src="images/facebook.png" alt="facebook"></a>
+             </li>
+             <li>
+               <a href="#"><img src="images/instagram.png" alt="instagram"></a>
+             </li>
+             <li>
+               <a href="#"><img src="images/google-plus.png" alt="google-plus"></a>
+             </li>
+           </ol>
+           <hr class="small">
+           <p class="text-muted">Copyright &copy;</p>
+         </div>
+       </div>
+     </div>
+   </footer>
+</body>
+</html>
