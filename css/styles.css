@@ -1,0 +1,73 @@
+body {
+margin : 0;
+padding : 0;
+font-size : 23px;
+font-family : verdana, sans-serif;
+color : #777;
+background : url(bg-grid.gif) #ebebeb;
+height : 100%;
+text-align : center;
+background-image: url("https://pixabay.com/get/eb30b60b20fd1c22d2524518a33219c8b66ae3d110b910429cf0c17f/football-257489_1280.png");*/
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+/*.tinted-image {
+ background:
+     top, transparent red
+    linear-gradient(
+      rgba(255, 0, 0, 0.45),
+      rgba(255, 0, 0, 0.45)
+    ),
+     bottom, image
+    url(ofoImjh.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+}
+#myCarousel{
+    transition-delay: 5s;
+    opacity: opacity: 0.6;
+
+}
+.sponsors{
+  width:
+  height:
+}
+h1{
+	color: yellow;
+	font-size: 45px;
+	padding-left: 65px;
+}
+.about{
+  float: left;
+}
+.fb{
+  width: 20px;
+  height: 20px;
+}
+.ig{
+  width: 20px;
+  height: 20px;
+}
+.gp{
+  width: 20px;
+  height: 20px;
+}
+h2{
+	font-size: 35px;
+	padding-top: 45px;
+	color: yellow;
+  opacity: 0.6;
+}
+
+.logo{
+  float: right;
+	font-size: 25px;
+	color: white;
+
+}
+footer{
+	color: blue;
+}
